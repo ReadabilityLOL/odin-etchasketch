@@ -1,14 +1,20 @@
+*{
+	background-color:#121212;
+}
+
 .container{
 	display:flex;
 	width:16ch;
 	height:16ch;
+	border-style:solid;
+	border-color:#0000ff;
 }
 
 .box{
 	width:1vw;
 	height:1vw;
 	background-color:#ffffff;
-	border-style:solid;
-	border-color:#000000;
-	border-width:1px;
+	/*border-style:solid;
+	  border-color:#000000;
+	  border-width:1px;*/
 }
