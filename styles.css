@@ -10,9 +10,13 @@
 	border-color:#0000ff;
 }
 
+.size-select{
+	border-top:20px;
+}
+
 .box{
-	width:1vw;
-	height:1vw;
+/*	width:1vw;
+	height:1vw;*/
 	background-color:#ffffff;
 	/*border-style:solid;
 	  border-color:#000000;
