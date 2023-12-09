@@ -1,10 +1,5 @@
 let container = document.querySelector(".container");
-	let boxes = document.querySelectorAll("box");
-	boxes.forEach(box => {
-	  box.remove();
-	});
 let numsquares = "16";
-
 
 function grid(){
 	for(let x = 0; x<numsquares; x++){
@@ -28,13 +23,21 @@ function grid(){
 
 grid();
 
-let button = document.querySelector(".size-select");
+let body = document.querySelector("body");
+
+let button = document.createElement("button");
+button.classList.add("size-select");
+button.textContent = "change number of boxes";
+container.appendChild(button);
+
 button.addEventListener("click",()=>{
 	numsquares = prompt("enter number of squares");
 	if(numsquares >=100){
 		numsquares = 100;
+	} else if(numsquares <= 0){
+		numsquares = 1;
 	}
-	let boxes = document.querySelectorAll(".box");
+	let boxes = document.querySelectorAll(".box"); 
 	boxes.forEach(box => {
 	  box.remove();
 	});

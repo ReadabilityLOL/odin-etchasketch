@@ -11,14 +11,17 @@
 }
 
 .size-select{
-	border-top:20px;
+	border-style:solid;
+	border-color:#0000ff;
+	border-width:2px;
+	border-radius:5px;
+	background-color:white;
+	color:#121212;
+	border:20px;
+	position:absolute; 
+	bottom:0;
 }
 
 .box{
-/*	width:1vw;
-	height:1vw;*/
 	background-color:#ffffff;
-	/*border-style:solid;
-	  border-color:#000000;
-	  border-width:1px;*/
 }
