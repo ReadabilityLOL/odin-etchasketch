@@ -6,8 +6,6 @@
 	display:flex;
 	width:16ch;
 	height:16ch;
-	border-style:solid;
-	border-color:#0000ff;
 }
 
 .size-select{
